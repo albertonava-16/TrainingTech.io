@@ -10,7 +10,7 @@
 {
     /* colores */
     --bitcoin-orange: #F7931A;
-    --soft-orange: #FFE9D4;
+    --soft-orange: #fdcfa3;
     --secundary-blue: #1A9AF7;
     --soft-blue: #E7F5FF;
     --warm-black: #201E1C;
@@ -148,6 +148,7 @@ main
     background-repeat: no-repeat;
 }
 
+
 .main-exchange-container--title h2
 {
     margin-bottom: 60px;
@@ -173,7 +174,7 @@ main
     max-width: 500px;
     height: 360px;
     margin: 0 auto;
-    font-family: "inter", sans-serif;    
+    font-family: "inter", sans-serif;       
 }
 
 .main-currency-table .currency-table--title
@@ -283,4 +284,13 @@ main
     font-size: 1rem;
     color: var(--warm-black);
     font-weight: 300;
+}
+
+.main-currency-table .currency-table--title1
+{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secundary-blue);
 }
