@@ -10,7 +10,7 @@
 {
     /* colores */
     --bitcoin-orange: #F7931A;
-    --soft-orange: #fac99a;
+    --soft-orange: #FFE9D4;
     --secundary-blue: #1A9AF7;
     --soft-blue: #E7F5FF;
     --warm-black: #201E1C;
@@ -282,4 +282,5 @@ main
 {
     font-size: 1rem;
     color: var(--warm-black);
+    font-weight: 300;
 }
