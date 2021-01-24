@@ -503,6 +503,7 @@ main
 .plans-container--card
 {
     position: relative;
+    overflow: hidden;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -525,10 +526,11 @@ main
 .recommended
 {
     position: absolute;
-    width: 120px;
-    height: 31px;
-    top: -15px;
-    left: calc(50% - 60px);
+    width: 150px;
+    height: 28px;
+    top: 25px;
+    right: -40px;
+    transform: rotate(45deg);
     font-size: 1.2rem;
     padding: 6px;
     background-color: rgb(238, 92, 218);
@@ -538,6 +540,8 @@ main
 
 .plan-card--title
 {
+    position: relative;
+    z-index: 3;
     padding-top: 30px;
     font-size: 1.4rem;
     font-weight: 500;
@@ -580,6 +584,8 @@ main
     font-weight: bold;
     line-height: 1.8rem;
     color: var(--black1);
+    cursor: pointer;
+    outline: none;
 }
 
 .plan-card--ca span
