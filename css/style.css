@@ -500,15 +500,26 @@ main
     color: #757575;
 }
 
+.plans-container--slider
+{
+    display: flex;
+    justify-content: space-between;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
 .plans-container--card
 {
     position: relative;
+    scroll-snap-align: center;
     overflow: hidden;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 25px;
     padding: 0 15px;    
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(98, 73, 30, 0.16);
@@ -540,8 +551,7 @@ main
 
 .plan-card--title
 {
-    position: relative;
-    z-index: 3;
+    position: relative;  
     padding-top: 30px;
     font-size: 1.4rem;
     font-weight: 500;
@@ -596,3 +606,4 @@ main
     background-image: url('../assets/icon/arrow-right_orange.svg');
     vertical-align: text-bottom;
 }
+
