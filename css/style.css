@@ -43,14 +43,14 @@ header
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    background: linear-gradient(207.8deg, #fffefe 10.69%, #0ba4e0 100%);
 }
 
 header img
 {
-    width: 150px;
-    height: 24px;
-    margin-top: 60px;
+    width: 250px;
+    height: 250px;
+    margin-top: -30px;
     align-self: center;
 }
 
@@ -60,7 +60,7 @@ header img
     min-width: 288px;
     max-width: 900px;
     height: 218px;
-    margin-top: 40px;
+    margin-top: -80px;
     text-align: center;
     align-self: center;
 }
@@ -69,8 +69,8 @@ header img
 {
     font-size: 2.4rem;
     font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--just-white)
+    line-height: 0.6rem;
+    color: var(--off-white);
 }
 
 .header--title-container p
@@ -79,7 +79,7 @@ header img
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: var(--soft-orange);
+    color: var(--warm-black);
 }
 
 .header--title-container .header--button
@@ -151,7 +151,7 @@ main
 
 .main-exchange-container--title h2
 {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     font-size: 2.4rem;
     font-weight: bold;
     height: 2.6rem;
@@ -352,11 +352,11 @@ main
 .product-detail--batata-logo
 {
     position: absolute;
-    width: 40px;
-    height: 25px;
-    top: -12px;
-    left: calc(50% - 20px);
-    background-image: url('../assets/image/pottato_middle.svg');
+    width: 250px;
+    height: 250px;
+    top: -114px;
+    left: calc(40%);
+    background-image: url('../assets/image/OnlyEye.png');
 }
 
 .product-detail--title
@@ -470,7 +470,7 @@ main
     width: 100%;
     min-width: 320px;
     height: 50vh;
-    background-image: url('../assets/image/bitcoinbaby2x.jpg');
+    background-image: url('../assets/image/accesibilidad-visual.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -645,7 +645,7 @@ footer
     display: flex;
     width: 100%;
     height: 150px;
-    background-color: var(--bitcoin-orange);
+    background: linear-gradient(207.8deg, #cee0f1 16.69%, #0ba4e0 100%);
 }
 
 footer section
